@@ -129,7 +129,7 @@ def handle_message(event):
         else:
             reply = FlexSendMessage(
                 alt_text="flex message",
-                contents=json.load(open('./templates/card.json',encoding='utf8'))
+                contents=json.load(open(os.path.join(os.getcwd(),'templates','card.json'),encoding='utf8'))
             )
             # pass
 
