@@ -1,4 +1,4 @@
-line-bot-sdk
+line-bot-sdk==1.8.0
 flask
 firebase-admin
 python-dotenv
