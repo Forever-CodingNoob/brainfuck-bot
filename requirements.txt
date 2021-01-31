@@ -1,0 +1,6 @@
+line-bot-sdk
+flask
+firebase-admin
+python-dotenv
+BrainpyFuck==0.1.1
+gunicorn
