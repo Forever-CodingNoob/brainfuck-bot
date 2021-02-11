@@ -1,4 +1,0 @@
-SET PROJECT_ID=brainfuck-linebot
-SET IMAGE_NAME=bot
-gcloud builds submit --tag gcr.io/%PROJECT_ID%/%IMAGE_NAME%
-gcloud run deploy --image gcr.io/%PROJECT_ID%/%IMAGE_NAME% --platform managed
