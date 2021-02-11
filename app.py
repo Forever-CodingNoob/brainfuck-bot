@@ -125,7 +125,7 @@ def handle_message(event):
                 text=TEXT
             )
         elif user_msg.find('余') != -1:
-            reply = TextSendMessage(text=f'余才不知道大人在說什麼呢')
+            reply = TextSendMessage(text=f'余才不知道人類大人在說什麼呢')
         else:
             flex_dict=json.load(open(os.path.join(os.getcwd(),'templates','card.json')))
             reply = FlexSendMessage(
